@@ -1,535 +1,64 @@
-<!-- interactive-readme-standard:start -->
-
-<div align="center">
-
-# Architecture-Website
-
-**Branch-aware technical guide for [`main`](https://github.com/Nischhalsubba/Architecture-Website/tree/main)**
-
-<p><img alt="branch: main" src="https://img.shields.io/static/v1?label=&message=branch%3A%20main&color=5965F2&style=flat-square"> <img alt="license detected" src="https://img.shields.io/static/v1?label=&message=license%20detected&color=2DA44E&style=flat-square"> <img alt="docs: branch-aware" src="https://img.shields.io/static/v1?label=&message=docs%3A%20branch-aware&color=8250DF&style=flat-square"></p>
-
-<p>
-  <a href="https://github.com/Nischhalsubba/Architecture-Website/tree/main"><strong>Browse source</strong></a> ·
-  <a href="https://github.com/Nischhalsubba/Architecture-Website/issues"><strong>Issues</strong></a> ·
-  <a href="https://github.com/Nischhalsubba/Architecture-Website/codespaces/new?ref=main"><strong>Open in Codespaces</strong></a>
-</p>
-
-</div>
-
-> [!IMPORTANT]
-> This guide is generated from the files actually present on `main`. It links to detected source paths, preserves project-authored notes, and avoids claiming components that were not found.
-
-## At a glance
-
-| Item | Detected value |
-|---|---|
-| Purpose | Branch-specific project documentation generated from the repository structure without inventing missing capabilities. |
-| Branch role | Default branch |
-| Stack | No primary framework detected automatically |
-| Manifests | No standard manifest detected |
-| Prerequisites | Confirm from the detected manifests |
-| Delivery | GitHub Actions |
-| License | LICENSE |
-
-## Branch scope
-
-This is the repository's default branch.
-
-
-
-## Quick start
-
-> No reliable setup command was detected. Use the preserved project-authored notes and manifests rather than guessing.
-
-### Configuration surface
-
-- No committed environment example file was detected.
-
-> Never commit secrets, private keys, production credentials, customer data, or unredacted infrastructure details.
-
-## Repository map
-
-```mermaid
-flowchart TD
-    ROOT["Architecture-Website / main"]
-    ROOT --> P0[".github/"]
-    ROOT --> P1["docs/"]
-    ROOT --> P2["AGENTS.md"]
-    ROOT --> P3["LICENSE"]
-```
-
-| Responsibility | Detected source paths |
-|---|---|
-| Documentation | [`docs`](https://github.com/Nischhalsubba/Architecture-Website/tree/main/docs) |
-| Delivery | [`.github`](https://github.com/Nischhalsubba/Architecture-Website/tree/main/.github) |
-
-## Website or application map
-
-```mermaid
-flowchart TD
-    APP["Architecture-Website"]
-    APP --> SOURCE["No conventional route directory detected"]
-    SOURCE --> GUIDE["Use the repository and architecture maps below"]
-```
-
-## Architecture and responsibility flow
-
-```mermaid
-flowchart LR
-    USER["User / contributor"]
-    USER --> A0["Documentation: docs"]
-    A0 --> A1["Delivery: .github"]
-    A1 --> DELIVERY["Delivery: GitHub Actions"]
-```
-
-
-
-## Quality, security, and operations
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### Quality
-
-- No conventional test directory was detected automatically.
-
-Detected commands:
-- No standard quality command detected.
-
-</td>
-<td width="33%" valign="top">
-
-### Security
-
-- No dedicated security policy or automated dependency configuration was detected.
-
-Review authentication, authorization, input validation, dependency updates, secret handling, and failure recovery before release.
-
-</td>
-<td width="34%" valign="top">
-
-### Observability
-
-- No dedicated observability integration was detected automatically.
-
-Define useful logs, metrics, traces, alerts, and rollback signals for production-facing branches.
-
-</td>
-</tr>
-</table>
-
-## Delivery flow
-
-```mermaid
-flowchart LR
-    CHANGE["Change on main"] --> CHECK["Tests and quality checks"]
-    CHECK --> REVIEW["Review architecture and documentation impact"]
-    REVIEW --> BUILD["Build or package"]
-    BUILD --> DEPLOY["Deploy or release"]
-    DEPLOY --> VERIFY["Verify health and rollback readiness"]
-```
-
-### Automation detected
-
-- [`.github/workflows/apply-interactive-readme.yml`](https://github.com/Nischhalsubba/Architecture-Website/blob/main/.github/workflows/apply-interactive-readme.yml)
-
-## Contribution flow
-
-```mermaid
-flowchart LR
-    FORK["Create branch"] --> CHANGE["Make focused change"]
-    CHANGE --> TEST["Run relevant checks"]
-    TEST --> DOCS["Update README and diagrams"]
-    DOCS --> PR["Open pull request"]
-    PR --> REVIEW["Review and iterate"]
-    REVIEW --> MERGE["Merge when ready"]
-```
-
-- Keep changes focused and explain architectural consequences.
-- Run the checks relevant to the changed area.
-- Update diagrams whenever routes, modules, data models, authentication, jobs, or delivery paths change.
-- Add screenshots or recordings for visual behavior changes when useful.
-- Use issues for reproducible defects and pull requests for reviewable changes.
-
-## Ownership and support
-
-| Topic | Source |
-|---|---|
-| Repository | [`Nischhalsubba/Architecture-Website`](https://github.com/Nischhalsubba/Architecture-Website) |
-| Branch | [`main`](https://github.com/Nischhalsubba/Architecture-Website/tree/main) |
-| Ownership | No CODEOWNERS file detected |
-| Contributing | Use the contribution flow above |
-| Support | [Open or review issues](https://github.com/Nischhalsubba/Architecture-Website/issues) |
-| License | [`LICENSE`](https://github.com/Nischhalsubba/Architecture-Website/blob/main/LICENSE) |
-
-<details>
-<summary><strong>Documentation maintenance checklist</strong></summary>
-
-- [ ] Purpose and branch scope are accurate.
-- [ ] Setup and configuration commands still work.
-- [ ] Repository, application, API, data, authentication, job, and deployment diagrams match the code.
-- [ ] Tests, security controls, observability, and rollback behavior are documented.
-- [ ] Links point to real files on this branch.
-- [ ] No secrets or private operational details are exposed.
-
-</details>
-
-<!-- interactive-readme-standard:end -->
-
-<!-- project-authored-notes:start -->
-<details>
-<summary><strong>Project-authored notes preserved from this branch</strong></summary>
-
-<div align="center">
-
-<img src="./docs/assets/architecture-website-thumbnail.svg" width="100%" alt="Architecture Website concept thumbnail" />
-
 # Architecture Website
 
-### Product and design scaffold for a premium architecture or interior-design studio website
+Architecture Website is a planning and design repository for a future architecture or interior-design portfolio site.
 
-A documentation-first repository defining the product direction, information architecture, visual language, content model, accessibility standards, technical options, and launch plan for a future architecture website.
+## Current repository state
 
-![Status](https://img.shields.io/badge/Status-Planning%20Scaffold-F59E0B?style=flat-square)
-![Focus](https://img.shields.io/badge/Focus-Product%20%26%20Visual%20Design-7C3AED?style=flat-square)
-![Type](https://img.shields.io/badge/Type-Architecture%20Website-111111?style=flat-square)
+This repository does **not** currently contain an application, package manifest, build system, deployment configuration, or verified runtime. The maintained material is the project/design brief and its concept thumbnail.
 
-![Stars](https://img.shields.io/github/stars/Nischhalsubba/Architecture-Website?style=flat-square)
-![Forks](https://img.shields.io/github/forks/Nischhalsubba/Architecture-Website?style=flat-square)
-![Issues](https://img.shields.io/github/issues/Nischhalsubba/Architecture-Website?style=flat-square)
-![Last commit](https://img.shields.io/github/last-commit/Nischhalsubba/Architecture-Website?style=flat-square)
+That means there are intentionally no installation, development, build, test, or deployment commands yet. Commands should be added only when a real implementation exists.
 
-[Project and design brief](./docs/PROJECT_AND_DESIGN_BRIEF.md) · [Repository instructions](./AGENTS.md)
-
-</div>
-
-## Current status
-
-This repository is a **planning and design scaffold**, not a completed website.
-
-It currently contains:
-
-- a branded concept thumbnail
-- product and audience definition
-- proposed information architecture
-- homepage and project-page requirements
-- visual and motion direction
-- content-model recommendations
-- accessibility and performance requirements
-- implementation options
-- testing and launch checklists
-
-It does **not** currently contain:
-
-- application source code
-- `package.json` or lockfile
-- build or development scripts
-- automated tests
-- CI configuration
-- deployment
-- verified browser screenshots
-
-That distinction is intentional. A polished README should improve clarity, not perform necromancy on files that do not exist.
-
-## Product direction
-
-The proposed product is a premium architecture or interior-design studio website that helps prospective clients:
-
-1. understand the studio's positioning
-2. explore selected projects
-3. evaluate services and process
-4. review project context and design decisions
-5. make a qualified enquiry
-
-The experience should be image-led, editorial, restrained, and readable, with project storytelling doing more work than decorative animation.
-
-## Intended audiences
-
-### Primary
-
-- residential clients
-- commercial clients
-- developers and property owners
-- collaborators and consultants
-- design-conscious prospects
-
-### Secondary
-
-- future team members
-- press and award reviewers
-- students and researchers
-- suppliers and project partners
-
-## Proposed information architecture
+## Repository structure
 
 ```text
-/
-├── /projects
-│   └── /projects/[slug]
-├── /studio
-├── /services
-├── /process
-├── /journal
-│   └── /journal/[slug]
-├── /contact
-├── /privacy
-└── /404
+Architecture-Website/
+├── docs/
+│   ├── assets/
+│   │   └── architecture-website-thumbnail.svg
+│   └── PROJECT_AND_DESIGN_BRIEF.md
+├── LICENSE
+└── README.md
 ```
 
-A smaller first release can combine Studio, Services, and Process on the homepage while keeping dedicated project-detail pages.
+The detailed product, content, visual, accessibility, and implementation requirements live in [`docs/PROJECT_AND_DESIGN_BRIEF.md`](./docs/PROJECT_AND_DESIGN_BRIEF.md).
 
-## Recommended homepage sections
+## Implementation principles
 
-| Section | Purpose |
-|---|---|
-| Header | Minimal navigation and clear studio identity |
-| Hero | Strong visual introduction and concise positioning |
-| Selected projects | Project credibility through image-led work |
-| Studio statement | Philosophy and design approach |
-| Services or sectors | Clear scope of work |
-| Process | Explain how projects move from discovery to delivery |
-| Recognition | Awards, publications, collaborators, or proven experience |
-| Contact CTA | Invite qualified project enquiries |
+When development begins:
 
-## Project detail requirements
+- choose the framework based on real content-editing and deployment needs;
+- commit the package manifest and lockfile together;
+- document supported runtime and package-manager versions;
+- add real lint, type-check, build, and test commands rather than placeholder scripts;
+- separate project content from reusable layout and presentation components;
+- keep route metadata centralized;
+- use typed records or validated content collections for projects;
+- preserve image dimensions, credits, rights, and captions;
+- keep private form credentials and other secrets server-side;
+- introduce a CMS only when an actual editing workflow justifies it.
 
-Each project page should explain decisions rather than merely display a gallery.
+## Product and design standards
 
-Recommended content:
+The future site should prioritize project storytelling over decorative effects. Major pages should explain services, process, decisions, and outcomes using verified evidence. Concept work must remain distinguishable from completed client work.
 
-- project name, location, year, status, and sector
-- services and scope
-- challenge or brief
-- design response
-- spatial or material strategy
-- image sequence with captions
-- plans, sections, or diagrams when licensed
-- project team and collaborators
-- outcome and related projects
+The visual system should use whitespace deliberately, keep body copy comfortably readable, allow project photography to carry most of the color, and use motion sparingly with reduced-motion support. Avoid scroll hijacking, unnecessary parallax, cursor gimmicks, and unlicensed imagery.
 
-## Visual direction
+## Accessibility and performance
 
-### Tone
+A future implementation should include semantic landmarks, logical heading order, keyboard-accessible controls, visible focus states, sufficient contrast, meaningful image alternatives, form labels and errors, reflow/zoom support, and reduced-motion behavior.
 
-- editorial
-- calm
-- precise
-- tactile
-- contemporary
-- image-led
+Use responsive images, reserve media dimensions to reduce layout shift, lazy-load below-the-fold media, minimize third-party scripts, and establish measurable performance budgets before adding heavy animation.
 
-### Typography
+## Source documentation standard
 
-A strong option is an editorial serif for display paired with a neutral sans-serif for body copy. A high-quality grotesk system can also work. Tiny uppercase labels should be used sparingly because unreadability is not a premium feature.
-
-### Color
-
-Recommended base palette:
-
-- warm off-white
-- charcoal
-- concrete grey
-- one restrained material-inspired accent
+When application code is introduced, every authored source file should begin with a concise human-readable description covering its purpose and main responsibilities. Meaningful functions should document what they do, important inputs and outputs, side effects, and non-obvious constraints. Comments should explain engineering intent rather than restating syntax.
 
-Project photography should carry most of the color.
+## Verification before release
 
-### Layout
-
-- generous whitespace
-- wide image frames
-- clear project metadata
-- asymmetry used deliberately
-- stable reading widths
-- responsive image crops
+Before describing the project as a working website, verify dependency installation, linting, type checking, production build, automated tests, responsive behavior, keyboard access, image/metadata quality, contact-form delivery, accessibility, deployment health, and real desktop/mobile screenshots.
 
-### Motion
+Do not publish fabricated projects, clients, awards, statistics, performance scores, conversion metrics, or deployment claims.
 
-- subtle image reveals
-- calm page transitions
-- meaningful hover feedback
-- reduced-motion alternative
+## License
 
-Avoid scroll hijacking, excessive parallax, and custom cursors that turn project browsing into a dexterity exam.
-
-## Image and content principles
-
-Architecture websites depend heavily on media quality. Future implementation should include:
-
-- responsive image formats
-- width and height metadata
-- lazy loading below the fold
-- priority loading for the hero image
-- mobile art direction
-- meaningful alt text
-- captions and credits
-- rights and permission tracking
-
-No project image, drawing, client name, or plan should be published without permission.
-
-## Recommended implementation options
-
-| Project need | Suitable approach |
-|---|---|
-| Small static portfolio | Astro or Vite with typed local content |
-| Rich portfolio and journal | Next.js with local content or MDX |
-| Frequent non-developer updates | Next.js or Astro with a headless CMS |
-| Existing WordPress workflow | Custom WordPress theme or decoupled frontend |
-
-A sensible first build would use:
-
-- Next.js or Astro
-- TypeScript
-- a small token-based CSS system or Tailwind CSS
-- typed local project content or MDX
-- built-in image optimization
-- server-side or provider-backed enquiry form
-- Cloudflare, Vercel, or Netlify deployment
-
-The final stack should follow the real editing and deployment needs, not whichever framework is currently winning conference-slide bingo.
-
-## Proposed repository structure
-
-```text
-src/
-├── app-or-pages/
-├── components/
-├── content/
-│   ├── projects/
-│   └── journal/
-├── data/
-├── lib/
-├── styles/
-└── types/
-
-public/
-├── images/
-└── fonts/
-
-docs/
-├── PROJECT_AND_DESIGN_BRIEF.md
-└── assets/
-```
-
-## Accessibility requirements
-
-The future application should include:
-
-- semantic headings and landmarks
-- keyboard-accessible navigation
-- visible focus states
-- sufficient color contrast
-- descriptive links
-- useful image alt text
-- reduced-motion support
-- accessible enquiry-form validation
-- zoom and reflow support
-- no information communicated through imagery alone
-
-## Performance goals
-
-Suggested first-release budgets:
-
-- keep initial JavaScript below approximately 180 KB compressed where practical
-- serve appropriately sized responsive images
-- keep common desktop hero delivery below approximately 350 KB when image quality allows
-- avoid autoplay video on mobile without a strong reason
-- minimize third-party scripts
-- monitor Core Web Vitals in production
-
-These are planning targets, not measured repository results.
-
-## SEO requirements
-
-Future implementation should include:
-
-- unique route metadata
-- canonical URLs
-- sitemap and robots policy
-- Open Graph images
-- accurate Organization or LocalBusiness structured data
-- project-oriented structured data where appropriate
-- descriptive project URLs
-- image captions and alt text
-- real location and sector content
-
-Do not create thin location pages for places the studio does not actually serve. Search engines have enough landfill already.
-
-## Delivery roadmap
-
-### Phase 1: Foundation
-
-- select framework
-- add package manifest and lockfile
-- define tokens and typography
-- implement global layout
-- add lint, typecheck, and build scripts
-
-### Phase 2: Core experience
-
-- homepage
-- project index
-- project detail template
-- studio page
-- contact page
-
-### Phase 3: Content
-
-- add real projects
-- verify image rights and credits
-- write services and process content
-- add SEO metadata
-
-### Phase 4: Reliability
-
-- automated tests
-- CI
-- accessibility review
-- performance budgets
-- form-delivery verification
-
-### Phase 5: Launch
-
-- production deployment
-- analytics and privacy documentation
-- real browser screenshots
-- README update with verified runtime evidence
-
-## Current verification status
-
-| Area | Status |
-|---|---|
-| Product direction | Documented |
-| Information architecture | Documented |
-| Visual direction | Documented |
-| Content model | Documented |
-| Accessibility requirements | Documented |
-| Technical stack | Not selected |
-| Application source | Not present |
-| Automated tests | Not present |
-| Deployment | Not present |
-| Browser screenshot | Not available |
-| Concept thumbnail | Present |
-
-The thumbnail is an original concept presentation asset. It is **not** a screenshot of a running website or an existing client project.
-
-## Documentation
-
-- [Project and design brief](./docs/PROJECT_AND_DESIGN_BRIEF.md)
-- [Repository instructions](./AGENTS.md)
-- [Concept thumbnail](./docs/assets/architecture-website-thumbnail.svg)
-
-## Portfolio framing
-
-A truthful current summary is:
-
-> Defined the product direction, information architecture, content model, visual principles, accessibility requirements, technical options, and launch plan for a premium architecture-studio website concept.
-
-Do not describe this repository as a completed or deployed architecture website until an application is actually built.
-
-## Author
-
-Concept direction and documentation by [Nischhal Raj Subba](https://github.com/Nischhalsubba).
-
-</details>
-<!-- project-authored-notes:end -->
+This repository is licensed under the terms in [LICENSE](./LICENSE).
