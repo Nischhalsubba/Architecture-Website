@@ -94,3 +94,7 @@ flowchart LR
 ## Documentation
 
 The detailed planning source remains in [`docs/PROJECT_AND_DESIGN_BRIEF.md`](./docs/PROJECT_AND_DESIGN_BRIEF.md), with additional repository guidance in [`docs/README.md`](./docs/README.md).
+
+## Project case study evidence
+
+Use the [case study evidence contract](./docs/PROJECT_CASE_STUDY_EVIDENCE_CONTRACT.md) to review project claims, design-stage labels, image rights, and accessible media **before** implementing or publishing project detail pages.
